@@ -122,6 +122,8 @@ public class FamilyTree
 		String line;
 		while ((line = br.readLine()) != null)
 			addLine(line);
+		br.close();
+		fr.close();
 	}
 	
 	
